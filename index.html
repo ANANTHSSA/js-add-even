@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js task add or even </title>
+</head>
+<body>
+    <script>
+    // let num=prompt('enter the number');
+    // if(num%2==0){
+    //     if(num%4==0){
+    //         document.write('yes it is divisible by 4')
+    //     }
+    //     else{
+    //         document.write('not dividible by 4')
+    //     }    
+    // }
+    // else{
+    //     if(num%3==0){
+    //         document.write('yes it is divisible by 3');
+    //     }
+    //     else{
+    //         document.write('not divisible by 3');
+    //     }
+    // }
+    let month=(prompt('enter the month'));
+    switch(month){
+        case 'january':
+        case 'march': 
+        case 'may': 
+        case 'july': 
+        case 'octomber':
+        case 'december':  
+            document.write(`${month},31 days`);
+            break;
+        case 'february':
+            document.write(`${month},28 days`);
+            break;
+        case 'april':
+        case 'june':
+        case 'september':
+        case 'november':
+        case 'april':
+            document.write(`${month},30 days`);
+            break;
+            default:
+                document.write('enter the crt day')
+            
+    }
+    </script>
+</body>
+</html>
